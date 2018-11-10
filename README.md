@@ -1,9 +1,15 @@
 # Landing Stack 
 
-A simply base to easy develop landing page with [Webpack](https://webpack.js.org/).
+A simply base to easy develop landing page with [Webpack](https://webpack.js.org/).  
 
+Include:  
+> [SASS](https://sass-lang.com/), [Compass](http://compass-style.org/), [Autoprefixer](https://autoprefixer.github.io/), [Manifest](https://github.com/danethurber/webpack-manifest-plugin/)  
+[Bootstrap 3 for SASS](https://getbootstrap.com/docs/3.3/), [EJS](https://ejs.co/), [ImageMin](https://github.com/imagemin/imagemin)  
+[CoffeeScript](https://coffeescript.org/), [BabelJS](https://babeljs.io/), [ESLint](https://eslint.org/), [UglifyJS](https://github.com/webpack-contrib/uglifyjs-webpack-plugin)  
 
-----
+For more information, watch the file `./package.json`
+
+---
 
 ### Install
 
@@ -14,7 +20,7 @@ Open console:
 	cd /go/in/your/project/folder/
     npm install
 
-----
+---
 
 ### Setup
 
@@ -29,7 +35,7 @@ Open console:
 - `___DB_LOGIN___` to set USERNAME  
 - `___DB_PASSWORD___` to set PASSWORD  
 
-----
+---
 
 ### Develop
 
@@ -38,7 +44,7 @@ Open console:
     npm run dev-server-webpack
     npm run dev-server-php
 
-----
+---
 
 ### Production
 
