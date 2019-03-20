@@ -8,7 +8,6 @@
 	"scripts": {
 		"dev": "set NODE_ENV=dev&& webpack",
 		"dev-watch": "set NODE_ENV=dev&& webpack --watch",
-		"dev-server-webpack": "set NODE_ENV=dev&& webpack-dev-server --hot",
 		"dev-server-php": "set NODE_ENV=dev&& webpack && start firefox --new-tab \"localhost:8080\" && php -S localhost:8080 -d display_errors=1 -t dist",
 		"prod": "webpack",
 		"prod-server-php": "webpack && start firefox --new-tab \"localhost:8080\" && php -S localhost:8080 -d display_errors=1 -t dist",
@@ -48,7 +47,8 @@
 		"uglifyjs-webpack-plugin": "^1.2.7",
 		"url-loader": "^1.0.1",
 		"webpack": "^3.12.0",
-		"webpack-dev-server": "^2.11.1",
+		"webpack-cli": "^3.3.0",
+		"webpack-dev-server": "^3.2.1",
 		"webpack-ftp-upload-plugin": "^1.0.3",
 		"webpack-manifest-plugin": "^2.0.3"
 	}
